@@ -1,0 +1,59 @@
+/* Small Reset */
+*::before, *::after, * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Element Selector */
+
+h1 {
+  color: red; 
+}
+
+li {
+  color: orangered;
+}
+
+/* Combination Selector */
+
+p, li {
+  font-family: monospace;
+}
+
+/* Child Selector */ 
+
+ul a {
+  color: violet;
+}
+
+/* Class Selector */ 
+
+li.bold {
+  font-weight: bold;
+}
+
+/* ID Selector */
+
+#main-header {
+  background: lime;
+}
+
+/* Attribute Selector */
+a[title] {
+  font-size: 2rem;
+}
+
+/* a[title="Click Me"] {
+  font-size: 2rem;
+} */
+
+/* Sibling Selectors */
+
+h1 ~ p {
+  border: solid 1px hotpink;
+}
+
+h1 + p { 
+  background: white;
+}
