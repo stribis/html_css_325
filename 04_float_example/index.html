@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Float Example</title>
+  <style>
+
+    /* Small Reset */
+    *::before, *::after, * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: orangered;
+      height: 20vh;
+    }
+
+    main {
+      background: purple;
+      height: 60vh;
+    }
+
+    section {
+      background: hotpink;
+      width: 60%;
+      height: 100%;
+      float: left;
+    }
+
+    aside {
+      background: blue;
+      width: 40%;
+
+      height: 100%;
+      float: right;
+    }
+
+    footer {
+      background: greenyellow;
+      height: 20vh;
+      clear: both;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    Header
+  </header>
+  <main>
+    <section>
+      Section
+    </section>
+    <aside>
+      Aside
+    </aside>
+  </main>
+  <footer>
+    Footer
+  </footer>
+</body>
+</html>

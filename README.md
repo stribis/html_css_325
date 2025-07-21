@@ -21,6 +21,10 @@ html_css/
 ├── 03_css_basics/
 │   ├── index.html          # CSS styling examples
 │   └── style.css           # CSS selectors and properties
+├── 04_float_example/
+│   └── index.html          # CSS Float layout demonstration
+├── 05_flex_basics/
+│   └── index.html          # Flexbox layout fundamentals
 └── README.md               # This file
 ```
 
@@ -77,6 +81,42 @@ Master CSS fundamentals including:
 - `.bold` - Class selector
 - `#main-header` - ID selector
 - `a[title]` - Attribute selector
+
+### 04 - Float Example
+**File:** `04_float_example/index.html`
+
+Explore CSS Float properties and layout techniques:
+- Understanding CSS float behavior
+- Creating multi-column layouts with floats
+- Float positioning (left and right)
+- Clearing floated elements
+- Building traditional webpage layouts
+- Height and width percentage units
+
+**Key Concepts Covered:**
+- `float: left` and `float: right`
+- `clear: both` property
+- Box-sizing and CSS reset
+- Creating sidebar layouts
+- Viewport height units (vh)
+
+### 05 - Flex Basics
+**File:** `05_flex_basics/index.html`
+
+Master CSS Flexbox fundamentals for modern layout design:
+- Flexbox container and item properties
+- Main axis and cross axis alignment
+- Flexible layout distributions
+- Responsive design with Flexbox
+- Centering content with Flexbox
+
+**Key Flexbox Properties Demonstrated:**
+- `display: flex` - Creating flex containers
+- `flex-direction` - Setting flex direction
+- `justify-content` - Main axis alignment
+- `align-items` - Cross axis alignment
+- `space-between` - Distribution of items
+- Flexbox for modern web layouts
 
 ## Getting Started
 
