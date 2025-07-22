@@ -50,15 +50,38 @@ Learn the fundamentals of HTML including:
 - Basic document structure
 
 ### 02 - Static Website
-**Files:** `02_static_website/index.html`, `02_static_website/style.css`
+**Files:** `02_static_website/index.html`, `02_static_website/style.css`, `02_static_website/images/`
 
-Build a complete static website by combining HTML structure with CSS styling.
+Build a complete static website based on a professional template design. This lesson focuses on creating a surf shop website ("SSURFER") with modern layout techniques and responsive design.
+
+**Project Features:**
+- **Navigation Bar**: Horizontal navigation with brand logo and menu items
+- **Hero Section**: Full-screen background image with call-to-action
+- **Product Showcase**: Grid layout displaying surfboard products with images and pricing
+- **Professional Styling**: Modern button designs and typography
 
 **Learning Objectives:**
-- Create a multi-page website structure
-- Implement consistent styling across pages
-- Practice semantic HTML markup
-- Apply responsive design principles
+- Implement CSS Flexbox for navigation and layout structure
+- Create responsive hero sections with background images
+- Apply CSS reset for consistent cross-browser styling
+- Structure semantic HTML with proper article and section elements
+- Style interactive elements (buttons, navigation links)
+- Work with external images and proper alt text
+
+**CSS Techniques Demonstrated:**
+- **Flexbox Navigation**: `display: flex`, `justify-content: space-between`, `align-items: center`
+- **Background Images**: `background-size: cover`, `background-position: center`
+- **CSS Reset**: Universal selector with `box-sizing: border-box`
+- **Button Styling**: Custom `.btn` class with padding and background colors
+- **Layout Spacing**: Using `gap`, `padding`, and `margin` for proper spacing
+- **Typography**: Font-family declarations and text styling
+
+**Key Concepts Covered:**
+- Semantic HTML structure with `<header>`, `<nav>`, `<section>`, and `<article>`
+- CSS Flexbox for modern layout design
+- Background image implementation and positioning
+- Professional button and navigation styling
+- Product card layout and design patterns
 
 ### 03 - CSS Basics
 **Files:** `03_css_basics/index.html`, `03_css_basics/style.css`
@@ -169,4 +192,4 @@ This educational material is provided for learning purposes as part of the WDD 3
 
 ---
 
-*Last updated: July 2025*
+*Last updated: July 22, 2025*
