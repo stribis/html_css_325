@@ -17,7 +17,8 @@ html_css/
 │   └── index.html          # Introduction to HTML elements and structure
 ├── 02_static_website/
 │   ├── index.html          # Static website implementation
-│   └── style.css           # Accompanying styles
+│   ├── style.css           # Accompanying styles
+│   └── fonts/              # Local font files (Roboto)
 ├── 03_css_basics/
 │   ├── index.html          # CSS styling examples
 │   └── style.css           # CSS selectors and properties
@@ -25,6 +26,12 @@ html_css/
 │   └── index.html          # CSS Float layout demonstration
 ├── 05_flex_basics/
 │   └── index.html          # Flexbox layout fundamentals
+├── 06_gradients/
+│   ├── index.html          # CSS gradient demonstrations
+│   ├── style.css           # Basic gradient examples
+│   └── flags/              # Flag recreation exercise
+│       ├── index.html      # Multiple flag implementations
+│       └── style.css       # Advanced gradients and pseudo-elements
 └── README.md               # This file
 ```
 
@@ -50,15 +57,17 @@ Learn the fundamentals of HTML including:
 - Basic document structure
 
 ### 02 - Static Website
-**Files:** `02_static_website/index.html`, `02_static_website/style.css`, `02_static_website/images/`
+**Files:** `02_static_website/index.html`, `02_static_website/style.css`, `02_static_website/images/`, `02_static_website/fonts/`
 
-Build a complete static website based on a professional template design. This lesson focuses on creating a surf shop website ("SSURFER") with modern layout techniques and responsive design.
+Build a complete static website based on a professional template design. This lesson focuses on creating a surf shop website ("SSURFER") with modern layout techniques, responsive design, and advanced typography.
 
 **Project Features:**
 - **Navigation Bar**: Horizontal navigation with brand logo and menu items
 - **Hero Section**: Full-screen background image with call-to-action
 - **Product Showcase**: Grid layout displaying surfboard products with images and pricing
 - **Professional Styling**: Modern button designs and typography
+- **Custom Typography**: Google Fonts integration and local font implementation
+- **Icon Integration**: Font Awesome icon library implementation
 
 **Learning Objectives:**
 - Implement CSS Flexbox for navigation and layout structure
@@ -67,6 +76,9 @@ Build a complete static website based on a professional template design. This le
 - Structure semantic HTML with proper article and section elements
 - Style interactive elements (buttons, navigation links)
 - Work with external images and proper alt text
+- Integrate Google Fonts using @import and link methods
+- Implement local font files and font-face declarations
+- Utilize Font Awesome for scalable vector icons
 
 **CSS Techniques Demonstrated:**
 - **Flexbox Navigation**: `display: flex`, `justify-content: space-between`, `align-items: center`
@@ -75,6 +87,9 @@ Build a complete static website based on a professional template design. This le
 - **Button Styling**: Custom `.btn` class with padding and background colors
 - **Layout Spacing**: Using `gap`, `padding`, and `margin` for proper spacing
 - **Typography**: Font-family declarations and text styling
+- **Google Fonts**: External font loading via CDN and @import
+- **Local Fonts**: Custom font files with @font-face declarations
+- **Icon Fonts**: Font Awesome CDN integration and icon usage
 
 **Key Concepts Covered:**
 - Semantic HTML structure with `<header>`, `<nav>`, `<section>`, and `<article>`
@@ -82,6 +97,9 @@ Build a complete static website based on a professional template design. This le
 - Background image implementation and positioning
 - Professional button and navigation styling
 - Product card layout and design patterns
+- Web typography best practices and font loading strategies
+- Icon fonts vs SVG considerations
+- Performance implications of external font loading
 
 ### 03 - CSS Basics
 **Files:** `03_css_basics/index.html`, `03_css_basics/style.css`
@@ -141,6 +159,52 @@ Master CSS Flexbox fundamentals for modern layout design:
 - `space-between` - Distribution of items
 - Flexbox for modern web layouts
 
+### 06 - CSS Gradients
+**Files:** `06_gradients/index.html`, `06_gradients/style.css`, `06_gradients/flags/`
+
+Explore advanced CSS gradient techniques and creative applications through practical exercises. This lesson demonstrates the power of CSS gradients for creating complex visual designs using minimal HTML markup.
+
+**Project Features:**
+- **Basic Gradients**: Linear gradients with direction control
+- **Color Stops**: Precise color positioning and hard transitions
+- **Flag Recreation**: International flags created with single div elements
+- **Advanced Techniques**: Pseudo-elements for complex designs
+- **Geometric Shapes**: Triangles and crosses using CSS borders and positioning
+
+**Flag Implementations:**
+- **Colombia**: Horizontal stripes with specific proportions
+- **Italy**: Vertical stripes using directional gradients
+- **Tanzania**: Diagonal gradients with multiple color stops
+- **USA**: Repeating gradients with pseudo-element overlay
+- **Zimbabwe**: Complex multi-stripe design with geometric overlays
+- **Switzerland**: Cross design using pseudo-elements and positioning
+
+**Learning Objectives:**
+- Master linear gradient syntax and direction control
+- Implement precise color stops for hard transitions
+- Utilize pseudo-elements (::before and ::after) for complex designs
+- Create geometric shapes using CSS borders and transforms
+- Apply absolute positioning for layered designs
+- Understand gradient performance and browser support
+
+**CSS Techniques Demonstrated:**
+- **Linear Gradients**: `linear-gradient()` with various directions
+- **Color Stops**: Percentage-based color positioning
+- **Repeating Gradients**: `repeating-linear-gradient()` for patterns
+- **Pseudo Elements**: `::before` and `::after` for additional design layers
+- **CSS Triangles**: Border manipulation for geometric shapes
+- **Absolute Positioning**: Precise element placement and layering
+- **Transform Properties**: `translate()` for centering and positioning
+- **Z-index**: Layer stacking for complex designs
+
+**Key Concepts Covered:**
+- CSS gradient syntax and browser compatibility
+- Color theory and flag design principles
+- Pseudo-element best practices and limitations
+- CSS-only graphic design techniques
+- Performance considerations for complex CSS designs
+- Mathematical precision in CSS layouts (percentage calculations)
+
 ## Getting Started
 
 1. **Clone or download** this repository to your local machine
@@ -192,4 +256,4 @@ This educational material is provided for learning purposes as part of the WDD 3
 
 ---
 
-*Last updated: July 22, 2025*
+*Last updated: July 28, 2025*
