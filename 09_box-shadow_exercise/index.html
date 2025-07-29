@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Box-shadow</title>
+  <style>
+    /* Small Reset */
+    *::before, *::after, * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .photo {
+      margin: 4rem auto;
+      width: 500px;
+      height: 500px;
+      background: url('https://placebear.com/500/500');
+      border: solid white 2rem;
+      /* border: solid 1px red; */
+      box-shadow: 
+      5px 5px 10px 0 black,
+      10px 10px 0 0 white,
+      15px 15px 10px 0 black,
+      20px 20px 0 0 white,
+      25px 25px 10px 0 black,
+      30px 30px 0 0 white,
+      35px 35px 10px 0 black
+      ;
+    }
+  </style>
+</head>
+<body>
+  <div class="photo"></div>
+</body>
+</html>

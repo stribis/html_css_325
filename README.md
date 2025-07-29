@@ -32,6 +32,12 @@ html_css/
 │   └── flags/              # Flag recreation exercise
 │       ├── index.html      # Multiple flag implementations
 │       └── style.css       # Advanced gradients and pseudo-elements
+├── 07_positioning/
+│   └── index.html          # CSS positioning properties and techniques
+├── 08_font_icons_extended/
+│   └── index.html          # Advanced Font Awesome icon implementations
+├── 09_box-shadow_exercise/
+│   └── index.html          # Box-shadow layering and visual effects
 └── README.md               # This file
 ```
 
@@ -205,6 +211,108 @@ Explore advanced CSS gradient techniques and creative applications through pract
 - Performance considerations for complex CSS designs
 - Mathematical precision in CSS layouts (percentage calculations)
 
+### 07 - CSS Positioning
+**File:** `07_positioning/index.html`
+
+Master CSS positioning properties for precise element placement and layout control. This lesson covers all positioning values and their practical applications in modern web design.
+
+**Learning Objectives:**
+- Understand the CSS positioning context and coordinate system
+- Master static, relative, absolute, and fixed positioning
+- Implement sticky positioning for modern scroll effects
+- Control element stacking with z-index
+- Create overlays, modals, and complex layouts
+- Position elements relative to viewport and containers
+
+**CSS Positioning Properties Demonstrated:**
+- **Static Positioning**: Default document flow behavior
+- **Relative Positioning**: Offset from natural position
+- **Absolute Positioning**: Positioned relative to nearest positioned ancestor
+- **Fixed Positioning**: Positioned relative to viewport
+- **Sticky Positioning**: Hybrid relative/fixed positioning
+- **Z-index Stacking**: Layer control and stacking contexts
+
+**Key Concepts Covered:**
+- Document flow and positioning contexts
+- Coordinate system (top, right, bottom, left)
+- Containing blocks and positioned ancestors
+- Stacking contexts and z-index behavior
+- Practical applications for navigation and UI elements
+
+### 08 - Font Icons Extended
+**File:** `08_font_icons_extended/index.html`
+
+Expand your knowledge of icon fonts with advanced Font Awesome implementations and best practices. This lesson demonstrates professional icon usage patterns and accessibility considerations.
+
+**Learning Objectives:**
+- Implement advanced Font Awesome icon techniques
+- Understand icon sizing and scaling methods
+- Apply icons in navigation and UI components
+- Master icon stacking and layering
+- Implement accessibility best practices for icons
+- Explore alternative icon libraries and SVG icons
+
+**Font Awesome Techniques Demonstrated:**
+- **Icon Sizing**: fa-xs, fa-sm, fa-lg, fa-2x through fa-10x
+- **Icon Rotation**: fa-rotate-90, fa-rotate-180, fa-rotate-270
+- **Icon Animation**: fa-spin, fa-pulse animations
+- **Icon Stacking**: fa-stack for layered icon effects
+- **Brand Icons**: Social media and company brand icons
+- **Accessibility**: Proper aria-label and screen reader support
+
+**Key Concepts Covered:**
+- Icon font vs SVG performance considerations
+- Semantic vs decorative icon usage
+- ARIA attributes for accessibility
+- Icon loading and fallback strategies
+- Custom icon font creation workflow
+
+### 09 - Box Shadow Exercise
+**File:** `09_box-shadow_exercise/index.html`
+
+Explore advanced CSS box-shadow techniques to create depth, layering, and visual effects. This hands-on exercise demonstrates multiple shadow layering for dramatic visual impact.
+
+**Project Features:**
+- **Multiple Shadow Layering**: Stacking shadows for depth effects
+- **Alternating Shadow Patterns**: Black and white shadow combinations
+- **Progressive Shadow Sizing**: Incrementally increasing shadow distances
+- **Photo Frame Effects**: Simulating physical photo stacking
+- **Visual Depth Creation**: 3D-like effects using pure CSS
+
+**Learning Objectives:**
+- Master box-shadow syntax and parameters
+- Layer multiple shadows for complex effects
+- Create realistic depth and lighting effects
+- Understand shadow performance implications
+- Apply shadows for UI enhancement and visual hierarchy
+
+**Box Shadow Techniques Demonstrated:**
+- **Multiple Shadows**: Comma-separated shadow declarations
+- **Shadow Parameters**: offset-x, offset-y, blur-radius, spread-radius, color
+- **Progressive Effects**: Systematic shadow progression
+- **Color Combinations**: Strategic use of light and dark shadows
+- **Performance Optimization**: Efficient shadow implementation
+
+**CSS Properties Covered:**
+```css
+box-shadow: 
+  5px 5px 10px 0 black,
+  10px 10px 0 0 white,
+  15px 15px 10px 0 black,
+  20px 20px 0 0 white,
+  25px 25px 10px 0 black,
+  30px 30px 0 0 white,
+  35px 35px 10px 0 black;
+```
+
+**Key Concepts Covered:**
+- Box-shadow syntax and browser support
+- Shadow stacking and layering principles
+- Visual hierarchy through depth effects
+- Performance considerations for complex shadows
+- Alternative approaches using pseudo-elements
+- Accessibility implications of shadow effects
+
 ## Getting Started
 
 1. **Clone or download** this repository to your local machine
@@ -256,4 +364,4 @@ This educational material is provided for learning purposes as part of the WDD 3
 
 ---
 
-*Last updated: July 28, 2025*
+*Last updated: July 29, 2025*
