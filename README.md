@@ -38,6 +38,8 @@ html_css/
 │   └── index.html          # Advanced Font Awesome icon implementations
 ├── 09_box-shadow_exercise/
 │   └── index.html          # Box-shadow layering and visual effects
+├── 10_tables/
+│   └── index.html          # HTML tables and CSS table styling
 └── README.md               # This file
 ```
 
@@ -313,6 +315,43 @@ box-shadow:
 - Alternative approaches using pseudo-elements
 - Accessibility implications of shadow effects
 
+### 10 - HTML Tables
+**File:** `10_tables/index.html`
+
+Master HTML table creation and CSS table styling for presenting tabular data effectively. This lesson covers semantic table markup, accessibility best practices, and modern styling techniques.
+
+**Learning Objectives:**
+- Understand when and how to use HTML tables appropriately
+- Create semantic table structure with proper markup
+- Implement table headers, captions, and accessibility features
+- Apply CSS styling for professional table presentation
+- Handle responsive table design challenges
+- Use table-specific CSS properties for layout control
+
+**HTML Table Elements Demonstrated:**
+- **Table Structure**: `<table>`, `<thead>`, `<tbody>`, `<tfoot>`
+- **Table Rows and Cells**: `<tr>`, `<th>`, `<td>`
+- **Table Captions**: `<caption>` for table descriptions
+- **Column Groups**: `<colgroup>` and `<col>` for column styling
+- **Cell Spanning**: `colspan` and `rowspan` attributes
+- **Accessibility**: `scope` attributes and proper header associations
+
+**CSS Table Styling Techniques:**
+- **Border Control**: `border-collapse`, `border-spacing` properties
+- **Cell Styling**: `padding`, `text-align`, `vertical-align`
+- **Zebra Striping**: `:nth-child()` selectors for alternating rows
+- **Hover Effects**: Interactive row and cell highlighting
+- **Responsive Design**: Techniques for mobile-friendly tables
+- **Table Layout**: `table-layout` property for performance
+
+**Key Concepts Covered:**
+- Semantic markup vs layout tables (historical context)
+- Accessibility best practices for screen readers
+- Table performance considerations and optimization
+- Responsive table design patterns
+- CSS grid vs tables for layout (when to use each)
+- Data presentation best practices
+
 ## Getting Started
 
 1. **Clone or download** this repository to your local machine
@@ -364,4 +403,4 @@ This educational material is provided for learning purposes as part of the WDD 3
 
 ---
 
-*Last updated: July 29, 2025*
+*Last updated: August 5, 2025*

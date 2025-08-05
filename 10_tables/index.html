@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tables</title>
+  <style>
+
+    /* Small Reset */
+    *::before, *::after, * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    .grades, .schedule {
+      border-collapse: collapse;
+      font-family: sans-serif;
+    }
+
+    th, td {
+      border: solid 1px black;
+      /* border-collapse: collapse; */
+      padding: 0.6rem;
+    }
+
+    .grades tr:nth-child(even) {
+      background: rgb(184, 184, 184);
+    }
+
+    .grades th {
+      background: rgb(94, 94, 94);
+      color: white;
+    }
+
+    /* Chessboard */
+
+    .chessboard {
+      border: solid 1px black;
+      border-collapse: collapse;
+    }
+
+    .chessboard td {
+      width: 50px;
+      height: 50px;
+    }
+
+
+    .chessboard tr:nth-child(odd) td:nth-child(even), 
+    .chessboard tr:nth-child(even) td:nth-child(odd) 
+    {
+      background: black;
+    }
+
+  </style>
+</head>
+<body>
+  <table class="grades">
+    <caption>Student Grades</caption>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Harry</td>
+      <td>Potter</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Hermione</td>
+      <td>Granger</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>Ron</td>
+      <td>Weasley</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>Draco</td>
+      <td>Malfoy</td>
+      <td>7</td>
+    </tr>
+  </table>
+
+  <!-- Schedule -->
+
+  <table class="schedule">
+    <caption>Schedule</caption>
+    <tr>
+      <th rowspan="6">Hours</th>
+      <th>Mon</th>
+      <th>Tue</th>
+      <th>Wed</th>
+      <th>Thu</th>
+      <th>Fri</th>
+    </tr>
+    <tr>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+    </tr>
+    <tr>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+    </tr>
+    <tr>
+      <th colspan="5">Lunch</th>
+    </tr>
+    <tr>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td rowspan="2">Project</td>
+    </tr>
+    <tr>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+      <td>Entry</td>
+    </tr>
+  </table>
+
+  <table class="chessboard">
+    <caption>Chessboard</caption>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </div>
+
+  <!-- <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/MrSYP-cotdg?si=R-KQjVIczLiqMzL0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
+
+</body>
+</html>
