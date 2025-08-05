@@ -40,6 +40,14 @@ html_css/
 │   └── index.html          # Box-shadow layering and visual effects
 ├── 10_tables/
 │   └── index.html          # HTML tables and CSS table styling
+├── 11_forms/
+│   └── index.html          # HTML forms and form styling
+├── 12_video_and_audio/
+│   ├── index.html          # HTML5 video and audio elements
+│   └── media/              # Video and audio files
+├── 13_dropdown_navigation/
+│   ├── index.html          # CSS dropdown navigation menus
+│   └── style.css           # Navigation styling and hover effects
 └── README.md               # This file
 ```
 
@@ -351,6 +359,122 @@ Master HTML table creation and CSS table styling for presenting tabular data eff
 - Responsive table design patterns
 - CSS grid vs tables for layout (when to use each)
 - Data presentation best practices
+
+### 11 - HTML Forms
+**File:** `11_forms/index.html`
+
+Master HTML form creation and styling for user input collection. This lesson covers semantic form markup, input types, validation, and modern form styling techniques.
+
+**Learning Objectives:**
+- Create semantic and accessible HTML forms
+- Implement various input types and form controls
+- Apply form validation attributes and techniques
+- Style forms with modern CSS for better user experience
+- Understand form accessibility best practices
+- Handle form layout and responsive design
+
+**HTML Form Elements Demonstrated:**
+- **Form Structure**: `<form>`, `<fieldset>`, `<legend>`
+- **Input Types**: `text`, `email`, `password`, `number`, `tel`, `url`
+- **Form Controls**: `<textarea>`, `<select>`, `<button>`
+- **Labels and Accessibility**: `<label>` associations and `for` attributes
+- **Validation**: `required`, `pattern`, `min`, `max` attributes
+- **Submit Handling**: Form submission and button types
+
+**CSS Form Styling Techniques:**
+- **Layout Control**: Flexbox for form organization
+- **Input Styling**: Custom padding, borders, and focus states
+- **Button Design**: Modern button styling with hover effects
+- **Form Backgrounds**: Gradient backgrounds and visual appeal
+- **Responsive Design**: Mobile-friendly form layouts
+- **Visual Hierarchy**: Typography and spacing for clarity
+
+**Key Concepts Covered:**
+- Form accessibility and screen reader compatibility
+- Client-side validation vs server-side validation
+- Modern form design principles and user experience
+- CSS pseudo-classes for form states (:focus, :hover, :invalid)
+- Progressive enhancement for form functionality
+
+### 12 - Video and Audio
+**Files:** `12_video_and_audio/index.html`, `12_video_and_audio/media/`
+
+Explore HTML5 multimedia elements for embedding video and audio content. This lesson covers semantic media markup, file formats, and accessibility considerations.
+
+**Learning Objectives:**
+- Implement HTML5 video and audio elements
+- Understand different media file formats and browser support
+- Provide fallback content for accessibility
+- Control media playback with attributes
+- Optimize media for web delivery
+- Implement responsive media design
+
+**HTML5 Media Elements Demonstrated:**
+- **Video Element**: `<video>` with controls and attributes
+- **Audio Element**: `<audio>` for sound content
+- **Source Elements**: `<source>` for multiple format support
+- **Media Attributes**: `controls`, `autoplay`, `loop`, `muted`
+- **Fallback Content**: Accessible alternatives for unsupported browsers
+- **Media File Types**: MP4, OGG, and format considerations
+
+**Media Implementation Techniques:**
+- **Multiple Sources**: Providing different formats for browser compatibility
+- **Accessibility**: Fallback links and descriptive content
+- **Performance**: File size optimization and loading strategies
+- **User Experience**: Native browser controls vs custom players
+- **Responsive Media**: Flexible sizing for different devices
+
+**Key Concepts Covered:**
+- HTML5 media browser support and compatibility
+- Video and audio file format considerations
+- Accessibility requirements for multimedia content
+- Performance implications of embedded media
+- Copyright and licensing considerations for web media
+
+### 13 - Dropdown Navigation
+**Files:** `13_dropdown_navigation/index.html`, `13_dropdown_navigation/style.css`
+
+Create interactive dropdown navigation menus using CSS hover effects and positioning. This lesson demonstrates advanced navigation patterns and user interface design.
+
+**Learning Objectives:**
+- Build hierarchical navigation structures
+- Implement CSS-only dropdown functionality
+- Apply absolute positioning for dropdown menus
+- Create smooth hover interactions
+- Design accessible navigation systems
+- Handle responsive navigation challenges
+
+**Navigation Techniques Demonstrated:**
+- **Nested Lists**: Semantic HTML structure for hierarchical menus
+- **CSS Positioning**: `absolute` and `relative` positioning for dropdowns
+- **Visibility Control**: `visibility` property for smooth show/hide effects
+- **Hover States**: `:hover` pseudo-class for interactive triggers
+- **Flexbox Layout**: Modern layout techniques for menu organization
+- **Visual Styling**: Background colors, spacing, and typography
+
+**CSS Properties and Concepts:**
+```css
+.nav-toggle {
+  position: relative;
+}
+
+.dropdown-nav {
+  position: absolute;
+  visibility: hidden;
+}
+
+.nav-toggle:hover .dropdown-nav {
+  visibility: visible;
+}
+```
+
+**Key Concepts Covered:**
+- CSS positioning contexts and stacking
+- Hover state management and user experience
+- Accessibility considerations for dropdown menus
+- Performance implications of CSS-only interactions
+- Alternative approaches using JavaScript for enhanced functionality
+- Mobile navigation patterns and responsive design
 
 ## Getting Started
 
