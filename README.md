@@ -48,6 +48,16 @@ html_css/
 ├── 13_dropdown_navigation/
 │   ├── index.html          # CSS dropdown navigation menus
 │   └── style.css           # Navigation styling and hover effects
+├── 14_example_project/
+│   ├── index.html          # Multi-page project homepage
+│   ├── about.html          # About page
+│   ├── products.html       # Products page
+│   ├── store.html          # Store page
+│   └── assets/             # Organized project assets
+│       ├── css/
+│       │   └── main.css    # Structured CSS with nesting
+│       ├── fonts/          # Custom font files (Lora, Raleway)
+│       └── images/         # Project images and backgrounds
 └── README.md               # This file
 ```
 
@@ -476,6 +486,80 @@ Create interactive dropdown navigation menus using CSS hover effects and positio
 - Alternative approaches using JavaScript for enhanced functionality
 - Mobile navigation patterns and responsive design
 
+### 14 - Multi-Page Project Example (In Progress)
+**Files:** `14_example_project/index.html`, `14_example_project/about.html`, `14_example_project/products.html`, `14_example_project/store.html`, `14_example_project/assets/css/main.css`
+
+Build a comprehensive multi-page business website demonstrating professional project structure, advanced CSS techniques, and modern development practices. This ongoing lesson focuses on practical application of all previously learned concepts.
+
+**Project Features:**
+- **Multi-Page Structure**: Homepage, About, Products, and Store pages
+- **Professional Layout**: Coffee shop business theme with consistent branding
+- **Asset Organization**: Structured folder hierarchy for scalability
+- **Advanced Typography**: Custom fonts (Lora, Raleway) with @font-face
+- **Modern CSS Techniques**: CSS nesting and reusable class patterns
+- **Visual Design**: Background overlays and sophisticated color schemes
+
+**Learning Objectives (Current Session):**
+- Implement professional project file structure and organization
+- Create reusable CSS classes for consistent styling across pages
+- Apply CSS nesting for better code organization and readability
+- Understand CSS nesting browser compatibility considerations
+- Structure multi-page navigation with consistent header/footer patterns
+- Organize assets (CSS, fonts, images) in a scalable folder structure
+
+**Upcoming Session Goals:**
+- Implement CSS custom properties (variables) for design consistency
+- Complete responsive design implementation
+- Finalize all page layouts and content
+- Apply advanced CSS features and optimizations
+
+**CSS Techniques Demonstrated:**
+- **CSS Nesting**: Modern nested selector syntax for organized code
+```css
+.main-navigation {
+  background: rgba(47, 23, 15, 0.9);
+  
+  > ul {
+    display: flex;
+    justify-content: center;
+    
+    a {
+      color: rgba(255, 255, 255, 0.7);
+      &:hover {
+        color: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+```
+- **@font-face Implementation**: Local font loading with fallbacks
+- **Background Overlays**: Layered backgrounds with gradients and images
+- **Reusable Classes**: `.heading-upper`, `.heading-lower` for consistent typography
+- **Semantic HTML Structure**: Proper use of header, nav, main, section elements
+
+**Project Structure Best Practices:**
+- **Asset Organization**: Separate folders for CSS, fonts, and images
+- **Naming Conventions**: Consistent class naming and file organization
+- **CSS Architecture**: Structured stylesheet with logical section organization
+- **Multi-Page Consistency**: Shared components and styling patterns
+- **Performance Considerations**: Optimized asset loading and CSS efficiency
+
+**Key Concepts Covered:**
+- Professional web project file structure and organization
+- CSS nesting syntax and browser compatibility considerations
+- Multi-page website development workflow
+- Asset management and optimization strategies
+- Modern CSS architecture and maintainable code patterns
+- Typography implementation with custom fonts and hierarchical styling
+
+**Technologies and Techniques In Focus:**
+- CSS Nesting (modern browser feature)
+- Custom Properties/Variables (upcoming session)
+- @font-face for custom typography
+- Background image and gradient combinations
+- Semantic HTML5 structure
+- Professional asset organization
+
 ## Getting Started
 
 1. **Clone or download** this repository to your local machine
@@ -527,4 +611,4 @@ This educational material is provided for learning purposes as part of the WDD 3
 
 ---
 
-*Last updated: August 5, 2025*
+*Last updated: August 11, 2025*
