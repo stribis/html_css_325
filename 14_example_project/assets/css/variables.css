@@ -1,0 +1,10 @@
+/* Variables */
+:root {
+  --font-body: 'Lora', serif;
+  --font-heading: 'Raleway', sans-serif;
+  --color-dark: #212529;
+  --color-light: #f6e1c5;
+  --color-yellow: rgb(230, 167, 86);
+  --border-radius: 0.375rem;
+
+}

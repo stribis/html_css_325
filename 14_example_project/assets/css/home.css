@@ -1,0 +1,47 @@
+.intro .floating-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 600px;
+  background: var(--color-light);
+  padding: 3rem;
+  position: relative;
+  left: 7rem;
+  top: 8rem;
+  z-index: 9;
+  border-radius: var(--border-radius);
+}
+
+.cta {
+  background: var(--color-yellow);
+  padding: 1.5rem 2rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0;
+  text-decoration: none;
+  border-radius: var(--border-radius);
+  color: var(--color-dark);
+  transform: translate(-50%, 50%);
+}
+
+/* Intro Section */
+
+.intro {
+  height: 100vh;
+  position: relative;
+}
+
+.intro .image-container {
+  height: 80%;
+  position: absolute;
+  top: 50%;
+  right: 7rem;
+  transform: translateY(-50%);
+}
+
+.intro .image-container img{ 
+  height: 100%;
+  width: auto;
+  border-radius: 0.375rem;
+
+}
